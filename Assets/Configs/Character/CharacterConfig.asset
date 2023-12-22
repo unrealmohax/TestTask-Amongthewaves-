@@ -16,7 +16,7 @@ MonoBehaviour:
     _speed: 8
   _airborneStateConfig:
     _jumpingStateConfig:
-      _maxHeight: 3
+      _maxHeight: 4
       _cooldownJumping: 1
       _minDuractionJumping: 0.9
     _speed: 2
@@ -37,7 +37,7 @@ MonoBehaviour:
   _dashStateConfig:
     _speed: 20
     _maxDashTime: 0.2
-    _refreshDashTime: 5
+    _refreshDashTime: 1
   _characteristicsConfig:
     _health: 5
   _pushingStateConfig:

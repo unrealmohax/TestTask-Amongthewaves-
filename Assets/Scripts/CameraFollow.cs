@@ -31,7 +31,7 @@ public class CameraFollow : MonoBehaviour
         SetOffset();
     }
 
-    private void LateUpdate()
+    private void FixedUpdate()
     {
         if (_target != null)
         {
