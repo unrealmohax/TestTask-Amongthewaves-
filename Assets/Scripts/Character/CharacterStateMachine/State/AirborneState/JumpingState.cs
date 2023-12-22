@@ -56,7 +56,7 @@ namespace StateMachine.State
         {
             base.Update();
 
-            if (!_isJump) return;
+            if (Data.TimeLastJump < 1 && !_isJump) return;
 
             if (Input.GetKeyDown(KeyCode.LeftShift) && DashReady())
             {
